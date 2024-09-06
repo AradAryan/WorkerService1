@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-WorkerService1-d537a517-2d31-4c30-b6b8-0930b6152eb1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.24.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="128.0.6613.11900" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.8" />
+    <PackageReference Include="Tesseract" Version="5.2.0" />
+  </ItemGroup>
+</Project>
